@@ -17,6 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.webView = [[UIWebView alloc]initWithFrame: self.view.frame];
+    [self.webView setBackgroundColor:[UIColor redColor]];
+    
+    [self.view addSubview:self.webView];
+    
+    NSString *myHTML = @"<html><body><h1>Hello, world!</h1></body></html>";
+    [self.webView loadHTMLString:myHTML baseURL:nil];
 }
 
 

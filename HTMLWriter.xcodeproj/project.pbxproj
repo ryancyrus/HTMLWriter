@@ -516,6 +516,7 @@
 				94CE00E81F378C74008D1F4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94CE00E91F378C74008D1F4F /* Build configuration list for PBXNativeTarget "HTMLWriterTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +525,7 @@
 				94CE00EB1F378C74008D1F4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94CE00EC1F378C74008D1F4F /* Build configuration list for PBXNativeTarget "HTMLWriterUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +534,7 @@
 				94CE00EE1F378C74008D1F4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
