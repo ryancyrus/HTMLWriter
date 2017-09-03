@@ -16,6 +16,9 @@
 		94CE00D71F378C74008D1F4F /* HTMLWriterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CE00D61F378C74008D1F4F /* HTMLWriterTests.m */; };
 		94CE00E21F378C74008D1F4F /* HTMLWriterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CE00E11F378C74008D1F4F /* HTMLWriterUITests.m */; };
 		94CE00F41F40FBEE008D1F4F /* HTMLCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CE00F31F40FBEE008D1F4F /* HTMLCreator.m */; };
+		94E6EF9B1F5B7FAA00CC900B /* HWTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E6EF9A1F5B7FAA00CC900B /* HWTable.m */; };
+		94E6EF9E1F5B7FC600CC900B /* HWTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E6EF9D1F5B7FC600CC900B /* HWTableRow.m */; };
+		94E6EFA11F5B7FE900CC900B /* HWTableData.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E6EFA01F5B7FE900CC900B /* HWTableData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,12 @@
 		94CE00E31F378C74008D1F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94CE00F21F40FBEE008D1F4F /* HTMLCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLCreator.h; sourceTree = "<group>"; };
 		94CE00F31F40FBEE008D1F4F /* HTMLCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLCreator.m; sourceTree = "<group>"; };
+		94E6EF991F5B7FAA00CC900B /* HWTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWTable.h; sourceTree = "<group>"; };
+		94E6EF9A1F5B7FAA00CC900B /* HWTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWTable.m; sourceTree = "<group>"; };
+		94E6EF9C1F5B7FC600CC900B /* HWTableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWTableRow.h; sourceTree = "<group>"; };
+		94E6EF9D1F5B7FC600CC900B /* HWTableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWTableRow.m; sourceTree = "<group>"; };
+		94E6EF9F1F5B7FE900CC900B /* HWTableData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWTableData.h; sourceTree = "<group>"; };
+		94E6EFA01F5B7FE900CC900B /* HWTableData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWTableData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +124,12 @@
 				94CE00BC1F378C74008D1F4F /* Supporting Files */,
 				94CE00F21F40FBEE008D1F4F /* HTMLCreator.h */,
 				94CE00F31F40FBEE008D1F4F /* HTMLCreator.m */,
+				94E6EF9C1F5B7FC600CC900B /* HWTableRow.h */,
+				94E6EF9D1F5B7FC600CC900B /* HWTableRow.m */,
+				94E6EF991F5B7FAA00CC900B /* HWTable.h */,
+				94E6EF9A1F5B7FAA00CC900B /* HWTable.m */,
+				94E6EF9F1F5B7FE900CC900B /* HWTableData.h */,
+				94E6EFA01F5B7FE900CC900B /* HWTableData.m */,
 			);
 			path = HTMLWriter;
 			sourceTree = "<group>";
@@ -281,8 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94E6EF9E1F5B7FC600CC900B /* HWTableRow.m in Sources */,
 				94CE00C41F378C74008D1F4F /* ViewController.m in Sources */,
+				94E6EF9B1F5B7FAA00CC900B /* HWTable.m in Sources */,
 				94CE00F41F40FBEE008D1F4F /* HTMLCreator.m in Sources */,
+				94E6EFA11F5B7FE900CC900B /* HWTableData.m in Sources */,
 				94CE00C11F378C74008D1F4F /* AppDelegate.m in Sources */,
 				94CE00BE1F378C74008D1F4F /* main.m in Sources */,
 			);

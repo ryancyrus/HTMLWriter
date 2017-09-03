@@ -7,9 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "HWTable.h"
 
 @interface HTMLCreator : NSObject
 
-@property(nonatomic, strong)NSString* html;
+@property(nonatomic, strong) HWTable* table;
 
+-(NSString *)createHTML;
+-(NSString *)createHTMLElement;
 @end
